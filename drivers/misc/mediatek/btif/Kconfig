@@ -1,0 +1,9 @@
+config MTK_BTIF
+	tristate"MediaTek BTIF Driver"
+	help
+	  MTK connectivity BTIF driver for A/D die
+
+config MTK_BT_DMA_CONFIG
+	tristate"MediaTek BTIF DMA Configue"
+	help
+	  Set dma rx threshold 1 only for project 17061

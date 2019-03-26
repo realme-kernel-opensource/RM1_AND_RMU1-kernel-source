@@ -1,0 +1,15 @@
+menu "SOC (System On Chip) specific Drivers"
+
+source "drivers/soc/brcmstb/Kconfig"
+source "drivers/soc/mediatek/Kconfig"
+source "drivers/soc/qcom/Kconfig"
+source "drivers/soc/rockchip/Kconfig"
+source "drivers/soc/sunxi/Kconfig"
+source "drivers/soc/ti/Kconfig"
+source "drivers/soc/versatile/Kconfig"
+
+#ifdef VENDOR_EDIT
+# Bin.Li@EXP.BSP.bootloader.bootflow, 2017/05/15, Add for oppo device info and oppo project
+source "drivers/soc/oppo/Kconfig"
+#endif /*VENDOR_EDIT*/
+endmenu
