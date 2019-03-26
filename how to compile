@@ -1,0 +1,10 @@
+how to compile:
+1.17065=RM1;18611=U1；	
+2.define to use like this,17065=RM1 as the same way to define (as OPPO_17065 )
+"is_project(OPPO_18611)
+#elif CONFIG_OPPO_FINGERPRINT_PROJCT == 18611
+case 18611:
+if(is_project(18611)
+full_oppo6771_18611
+CONFIG_BUILD_ARM64_DTB_OVERLAY_IMAGE_NAMES=""mediatek/oppo6771_18611""
+CONFIG_ARCH_MTK_PROJECT=""oppo6771_18611"
